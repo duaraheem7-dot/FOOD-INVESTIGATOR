@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Investigator 🍲</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🥗 Food Investigator</h1>
+    <p>Know Before You Eat – Check your food’s freshness & hygiene</p>
+  </header>
+
+  <main>
+    <div class="upload-box">
+      <h3>Upload your food photo:</h3>
+      <input type="file" id="foodImage" accept="image/*">
+      <button onclick="analyzeFood()">Analyze Food</button>
+    </div>
+
+    <div class="result-box" id="result"></div>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by Food Investigator</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
